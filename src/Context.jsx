@@ -7,7 +7,6 @@ export const ContextProvider = ({ children }) => {
 
   const addStudent = (student) => {
     setStudents((prevStudents) => [...prevStudents, student]);
-    console.log("Student added successfully!");
   };
 
   console.log(students);

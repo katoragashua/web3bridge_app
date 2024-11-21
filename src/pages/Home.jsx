@@ -2,15 +2,15 @@ import React, { useContext } from "react";
 import { Context } from "../Context";
 
 const Home = () => {
-  const { addStudent } = useContext(Context);
+//   const { addStudent } = useContext(Context);
   const handleSubmit = (e) => {
     e.preventDefault();
     const formData = new FormData(e.target);
     const studentData = Object.fromEntries(formData);
+    // addStudent(studentData);
     console.log(studentData);
   };
 
-  //   const [student, setStudent] = React.useState()
 
   return (
     <div>

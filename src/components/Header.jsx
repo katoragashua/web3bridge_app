@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { Context } from "../Context";
+import web3bridge from "/src/assets/web3bridge.svg"
 
 const links = [
     {
@@ -19,7 +20,7 @@ const Header = () => {
   return <header className="">
     <div className="logo">
         <Link to="/" className="logo-link">
-          <img src="logo.png" alt="Logo" />
+          <img src={web3bridge} alt="Logo" />
         </Link>
     </div>
     <nav className="nav">
