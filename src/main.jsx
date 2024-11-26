@@ -9,24 +9,22 @@ import {
 import "./index.css";
 import RootLayout from "./layout/RootLayout.jsx";
 import Home from "./pages/Home.jsx";
-import Student from "./pages/Dashboard.jsx";
+import Dashboard from "./pages/Dashboard.jsx";
+import { ContextProvider } from "./Context";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route
-      path="/"
-      element={<RootLayout />}
-      // action={rootAction}
-      // errorElement={<ErrorPage />}
-    >
+    <Route path="/" element={<RootLayout />}>
       <Route index element={<Home />} />
-      <Route path=":country" element={<Student />} />
+      <Route path="dashboard" element={<Dashboard />} />
     </Route>
   )
 );
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <ContextProvider>
+      <RouterProvider router={router} />
+    </ContextProvider>
   </React.StrictMode>
 );

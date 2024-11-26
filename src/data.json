@@ -1,0 +1,73 @@
+[
+    {
+      "firstname": "Kator",
+      "lastname": "Agashua",
+      "age": 21,
+      "sex": "male",
+      "year": 4
+    },
+    {
+      "firstname": "Amara",
+      "lastname": "Chukwu",
+      "age": 20,
+      "sex": "female",
+      "year": 3
+    },
+    {
+      "firstname": "Emeka",
+      "lastname": "Obi",
+      "age": 22,
+      "sex": "male",
+      "year": 4
+    },
+    {
+      "firstname": "Fatima",
+      "lastname": "Bello",
+      "age": 19,
+      "sex": "female",
+      "year": 2
+    },
+    {
+      "firstname": "David",
+      "lastname": "Okoro",
+      "age": 21,
+      "sex": "male",
+      "year": 3
+    },
+    {
+      "firstname": "Ngozi",
+      "lastname": "Eze",
+      "age": 18,
+      "sex": "female",
+      "year": 1
+    },
+    {
+      "firstname": "Chinedu",
+      "lastname": "Nwankwo",
+      "age": 23,
+      "sex": "male",
+      "year": 4
+    },
+    {
+      "firstname": "Amina",
+      "lastname": "Yusuf",
+      "age": 20,
+      "sex": "female",
+      "year": 3
+    },
+    {
+      "firstname": "Ifeanyi",
+      "lastname": "Okeke",
+      "age": 22,
+      "sex": "male",
+      "year": 4
+    },
+    {
+      "firstname": "Bola",
+      "lastname": "Adeyemi",
+      "age": 19,
+      "sex": "female",
+      "year": 2
+    }
+  ]
+  
